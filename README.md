@@ -15,7 +15,7 @@ This repository has all the necessary files to replicate the multivariate analys
 ```
   *exportRandomSampleToCSV.cc* functions export data from .root to .csv format
 ```
-  run: root exportRandomSampleToCSV.cc
+  root exportRandomSampleToCSV.cc
 ```
 
 **Histograms:**
@@ -33,9 +33,9 @@ This repository has all the necessary files to replicate the multivariate analys
 
   *makeFullSample.cc* applies, to a initial raw simulations (not included here), the initial C_0 cuts to reduce QCD Background
 ```
-  run: makeFullSample.cc
+  makeFullSample.cc
 ```  
   *makeRandomSample.cc* makes a random sub sample from fullSample with equal signal and background events
 ```
-  run: makeRandomSample.cc
+  makeRandomSample.cc
 ```
