@@ -1,0 +1,14 @@
+// For Jets
+lead_jet_pt: 10.0
+jet_eta_max: 2.5
+b_jet_pt_min: 20.0
+DR_jet_elec_max: 0.3
+jet_DEta: 3.0
+// For Taus
+muon_pt_min: mm.0
+tau1_pt_min: 40.0 
+tau2_pt_min: 5.0
+tau_eta_max: 2.5
+// Topology
+met_min: 0.0
+transversemassmin: 0.0
