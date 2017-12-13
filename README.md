@@ -9,19 +9,19 @@ makeTree Folder:
 
 Exporting codes:
   exportFullSampleToCSV.cc functions export data from .root to .csv format
-  ```
+```
   root exportFullSampleToCSV.cc
-  ```
+```
   exportRandomSampleToCSV.cc functions export data from .root to .csv format
-  ``
-  run: root exportRandomSampleToCSV.cc
-  ``
+```
+  run: root exportRandomSampleToCSV.cc
+```
 
 Histograms:
   radomSampleHistograms.cc functions create the exploratory histograms for the radom subsamples
-  ```
+```
   root radomSampleHistograms.cc
-  ```
+```
 
 ML analysis:
   _____GeV_Analysis.ipynb shows the MVA analysis for each of the Z' masses samples
@@ -34,4 +34,4 @@ Make samples:
   makeRandomSample.cc makes a random sub sample from fullSample with equal signal and background events
 ```
   run: makeRandomSample.cc
-```
+``
