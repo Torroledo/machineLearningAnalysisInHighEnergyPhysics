@@ -33,9 +33,9 @@ This repository has all the necessary files to replicate the multivariate analys
 
   *makeFullSample.cc* applies, to a initial raw simulations (not included here), the initial C_0 cuts to reduce QCD Background
 ```
-  makeFullSample.cc
+  root makeFullSample.cc
 ```  
   *makeRandomSample.cc* makes a random sub sample from fullSample with equal signal and background events
 ```
-  makeRandomSample.cc
+  root makeRandomSample.cc
 ```
