@@ -1,8 +1,7 @@
 # Using Machine Learning algorithms in the search of a Z' boson vector at LHC
 ### Codes and source files
 
-This repository has all the necessary files to replicate the multivariate
-analysis:
+This repository has all the necessary files to replicate the multivariate analysis:
 
 **makeTree Folder:**
 
@@ -21,22 +20,22 @@ analysis:
 
 **Histograms:**
 
-  radomSampleHistograms.cc functions create the exploratory histograms for the radom subsamples
+  radomSampleHistograms.cc functions create the histograms for the random subsamples
 ```
   root radomSampleHistograms.cc
 ```
 
 **ML analysis:**
 
-  _____GeV_Analysis.ipynb shows the MVA analysis for each of the Z' masses samples
+  _____GeV_Analysis.ipynb shows the MVA analysis for each of the Z' mass samples
 
 **Make samples:**
 
-  *makeFullSample.cc* applies, to a initial raw simulations (not included here), the initial C_0 cuts to reduce QCD Background
+  *makeFullSample.cc* applies, to a initial raw simulations (not included here), the initial $C_0$ cuts to reduce QCD Background
 ```
   run: makeFullSample.cc
 ```  
   *makeRandomSample.cc* makes a random sub sample from fullSample with equal signal and background events
 ```
   run: makeRandomSample.cc
-``
+```
