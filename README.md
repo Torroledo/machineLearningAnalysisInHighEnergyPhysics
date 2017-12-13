@@ -31,7 +31,7 @@ This repository has all the necessary files to replicate the multivariate analys
 
 **Make samples:**
 
-  *makeFullSample.cc* applies, to a initial raw simulations (not included here), the initial $C_0$ cuts to reduce QCD Background
+  *makeFullSample.cc* applies, to a initial raw simulations (not included here), the initial C_0 cuts to reduce QCD Background
 ```
   run: makeFullSample.cc
 ```  
