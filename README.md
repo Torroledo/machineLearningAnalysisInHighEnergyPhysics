@@ -4,39 +4,39 @@
 This repository has all the necessary files to replicate the multivariate
 analysis:
 
-makeTree Folder:
+**makeTree Folder:**
 
-  makeTree.cc creates TTree object for each of the source files (SG and BG)
+  *makeTree.cc* creates TTree object for each of the source files (SG and BG)
 
-Exporting codes:
+**Exporting codes:**
 
-  exportFullSampleToCSV.cc functions export data from .root to .csv format
+  *exportFullSampleToCSV.cc* functions export data from .root to .csv format
 ```
   root exportFullSampleToCSV.cc
 ```
-  exportRandomSampleToCSV.cc functions export data from .root to .csv format
+  *exportRandomSampleToCSV.cc* functions export data from .root to .csv format
 ```
   run: root exportRandomSampleToCSV.cc
 ```
 
-Histograms:
+**Histograms:**
 
   radomSampleHistograms.cc functions create the exploratory histograms for the radom subsamples
 ```
   root radomSampleHistograms.cc
 ```
 
-ML analysis:
+**ML analysis:**
 
   _____GeV_Analysis.ipynb shows the MVA analysis for each of the Z' masses samples
 
-Make samples:
+**Make samples:**
 
-  makeFullSample.cc applies, to a initial raw simulations (not included here), the initial C_0 cuts to reduce QCD Background
+  *makeFullSample.cc* applies, to a initial raw simulations (not included here), the initial C_0 cuts to reduce QCD Background
 ```
   run: makeFullSample.cc
 ```  
-  makeRandomSample.cc makes a random sub sample from fullSample with equal signal and background events
+  *makeRandomSample.cc* makes a random sub sample from fullSample with equal signal and background events
 ```
   run: makeRandomSample.cc
 ``
